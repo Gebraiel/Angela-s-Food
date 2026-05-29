@@ -1,6 +1,7 @@
 import { Cairo } from "next/font/google";
 import "./globals.css";
 import Header from "./Components/Header/Header";
+export const revalidate = 0;
 
 const cairoFont = Cairo({
   variable: "--font-cairo",

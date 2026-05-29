@@ -3,6 +3,8 @@ import React from 'react'
 
 export default function Logo() {
   return (
-    <Image src="/angelas-food-logo.jpeg" width="200" height="200" alt="angela's food logo"/>
+    <div className='w-full max-w-[200px] aspect-video relative'>
+      <Image fill="true" className='w-full h-full object-contain' src="/logo.png"  alt="angela's food logo"/>
+    </div>
   )
 }

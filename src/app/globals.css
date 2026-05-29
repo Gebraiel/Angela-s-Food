@@ -14,7 +14,7 @@
   --color-text:var(--text-color);
 }
 .container{
-  @apply max-w-[1280px] px-16 m-auto
+  @apply max-w-[1280px] lg:px-16 px-8  m-auto
 }
 body{
   background-color: var(--background);
