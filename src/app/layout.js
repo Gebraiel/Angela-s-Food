@@ -5,7 +5,6 @@ export const revalidate = 0;
 
 const cairoFont = Cairo({
   variable: "--font-cairo",
-  subsets: ["latin"],
 });
 
 
@@ -17,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html
-      lang="en"
+      lang="ar" dir="rtl"
       className={`${cairoFont.variable}  h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">

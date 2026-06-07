@@ -8,7 +8,7 @@
 }
 
 @theme inline {
-  --font-cairo:"Cairo",sans-serif;
+  --font-cairo:"Noto Sans Arabic",sans-serif;
   --color-primary:var(--primary-color);
   --color-secondary:var(--secondary-color);
   --color-text:var(--text-color);
@@ -16,8 +16,8 @@
 .container{
   @apply max-w-[1280px] lg:px-16 px-8  m-auto
 }
+
+
 body{
   background-color: var(--background);
 }
-
-
