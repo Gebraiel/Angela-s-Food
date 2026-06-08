@@ -1,6 +1,7 @@
 import { Cairo } from "next/font/google";
 import "./globals.css";
 import Header from "./Components/Header/Header";
+import Footer from "./Components/Footer";
 export const revalidate = 0;
 
 const cairoFont = Cairo({
@@ -19,9 +20,10 @@ export default function RootLayout({ children }) {
       lang="ar" dir="rtl"
       className={`${cairoFont.variable}  h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-screen grid grid-rows-[auto_1fr_auto]">
         <Header/>
         {children}
+        <Footer/>
       </body>
     </html>
   );

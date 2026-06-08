@@ -3,7 +3,7 @@
 :root {
   --primary-color:#0D2B1E;
   --secondary-color:#FAC742;
-  --text-color:#767775;
+  --text-color:rgba(255,255,255,80%);
   --background:#F8F6F2;
 }
 
